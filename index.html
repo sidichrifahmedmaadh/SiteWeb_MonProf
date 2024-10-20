@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descirption" content="Pont de communication distingué entre l'enseignant, l'élève et les parents - 
+    vers un partenariat éducatif efficace et durable.">
+    <title>MonProf</title>
+    <link rel="stylesheet" href="style.css">
+    <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- home section starts here -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>MonProf</h3>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Accuil</a></li>
+                        <li><a href="#Propos_Nos">Propos Nos</a></li>
+                        <li><a href="teacher.html" target="_blank">Enseignant</a></li>
+                        <li><a href="schools.html" target="_blank">Établissement</a></li>
+                        <li><a href="#Ressources">Ressources</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="signup-login">
+                    <a href="#">Se Connecter</a>
+                    <a href="#">S'Inscrire</a>
+                </div>
+            </nav>
+
+            <div class="content">
+                <h1>Où les classes se transforment en communautés</h1>
+                <p>Pont de communication distingué entre l'enseignant, l'élève et les parents - vers un partenariat éducatif efficace et durable.</p>
+                <h5>Obtenez Votre Prof</h5>
+                <div class="search-container">
+                    <form class="searchForm">
+                    
+                        <div class="theshearch-tab">
+                            <a href="" id="onlineTab" class="active">En ligne</a>
+                            <a href="" id="inPersonTab">En Présentiel</a>
+                        </div>
+
+                        <div class="home-shearch">
+                            <div class="shearch-col">
+                                <select id="level" name="level" required>
+                                    <option value="online">tous les profs</option>
+                                    <option value="in-person">Mathematique</option>
+                                    <option value="in-person">Physique & Chimie</option>
+                                    <option value="in-person">Science Naturelle</option>
+                                    <option value="in-person">Langue Arabe</option>
+                                    <option value="in-person">Langue Francais</option>
+                                    <option value="in-person">Langue Anglais</option>
+                                    <option value="in-person">Education Islamique</option>
+                                    <option value="in-person">Education Civique</option>
+                                    <option value="in-person">Histoire</option>
+                                    <option value="in-person">Geographie</option>
+                                    <option value="in-person">Philosophie</option>
+                                </select>
+                            </div>   
+
+                            <div class="shearch-col">
+                                <select id="level" name="level" required>
+                                    <option value="online">tous les niveaux</option>
+                                    <option value="in-person">Maternelle</option>
+                                    <option value="in-person">Primaire</option>
+                                    <option value="in-person">Collège</option>
+                                    <option value="in-person">lycèe</option>
+                                    <option value="in-person">Treminale</option>
+                                    <option value="in-person">Universitè</option>
+                                </select>
+                            </div>
+
+                            <div class="shearch-col" id="addressField" style="display: none;">
+                                <input type="text" id="Adress" name="Adress" placeholder="Adresse" required>
+                            </div>
+
+                            <button type="submit">Rechercher</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="arrow-up">
+                <a href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- home section ends here  -->
+
+    <!-- Inscription section starts here  -->
+    <section class="inscription">
+        <h5 class="title">Commencez en tant que...</h5>
+        <div class="contents">
+            
+            <div class="card-iscrpt">
+                
+                <div class="icon">
+                    <a href="teacher.html" target="_blank"><img src="images/teacher.png" alt=""></a>
+                </div>
+                <div class="info">
+                    <h3>Enseignant</h3>
+                    <a href="teacher.html" target="_blank"><i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card-iscrpt">
+                <div class="icon">
+                    <a href="student.html" target="_blank"><img src="images/student.png" alt=""></a>
+                </div>
+                <div class="info">
+                    <h3>Élève</h3>
+                    <a href="student.html" target="_blank"><i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card-iscrpt">
+                <div class="icon">
+                    <a href="family.html" target="_blank"><img src="images/family.png" alt=""></a>
+                </div>
+                <div class="info">
+                    <h3>Parent</h3>
+                    <a href="family.html" target="_blank"><i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Inscription section ends here  -->
+
+    <!-- destinatons section starts here  -->
+    <section class="destinations" id="Propos_Nos">
+        <h4 class="label">À propos de nous</h4>
+        <div class="container">
+            <div class="container-box">
+                <h2 class="heading"><i class="fa-solid fa-graduation-cap"></i> MonProf</h2>
+                <div class="content">
+                    <p>C'est une plateforme éducative, offre aux enseignants, étudiants et parents un accès à des ressources pédagogiques, 
+                    des outils de gestion de classe et des formations continues. MonProf favorise la collaboration et personnalise l'apprentissage pour maximiser la réussite scolaire. 
+                    Rejoignez notre communauté pour une nouvelle expérience éducative.</p>
+                    <a href="#Object">explore plus <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- destinatons section ends here  -->
+
+    <!-- descirption section starts here  -->
+    <section class="cards" id="Object">
+        <div class="contents">
+
+            <div class="card">
+                <div class="icon">
+                    <img src="images/online-library.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Accès à des ressources pédagogiques de qualité</h3>
+                    <p>MonProf fournit aux enseignants et aux étudiants un accès à une vaste bibliothèque de ressources éducatives,
+                    incluant des leçons, des exercices interactifs et des supports multimédias adaptés aux différents niveaux d'enseignement.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="images/planning.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Plateforme de formation continue pour les enseignants</h3>
+                    <p>MonProf propose des modules de formation continue en ligne, 
+                    permettant aux enseignants d'améliorer leurs compétences pédagogiques 
+                    et de se tenir informés des dernières tendances et méthodologies éducatives.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="images/trust.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Facilitation du tutorat personnalisé</h3>
+                    <p>MonProf met en relation des élèves avec des tuteurs qualifiés pour des séances de tutorat personnalisé, 
+                    que ce soit en ligne ou en présentiel, afin de répondre aux besoins spécifiques de chaque étudiant.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="images/crm.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Outils de gestion de classe efficaces</h3>
+                    <p>MonProf offre aux enseignants des outils numériques pour planifier les cours, gérer les devoirs, 
+                    suivre les progrès des élèves et communiquer avec les parents, simplifiant ainsi les tâches administratives et pédagogiques.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="images/diversity.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Création d'une communauté éducative collaborative</h3>
+                    <p>MonProf encourage l'interaction et la collaboration entre les enseignants, les élèves et les parents à travers des forums de discussion, 
+                    des groupes de travail en ligne et des événements communautaires, favorisant un environnement d'apprentissage dynamique et inclusif.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="images/machine-learning.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Personnalisation de l'apprentissage</h3>
+                    <p>MonProf utilise des technologies d'intelligence artificielle pour proposer des parcours d'apprentissage personnalisés, 
+                    adaptant les contenus et les exercices en fonction des performances et des besoins spécifiques de chaque élève,
+                    maximisant ainsi l'efficacité de l'apprentissage.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- descirption section ends here  -->
+
+    <!-- article section starts here  -->
+    <section class="article" id="Ressources">
+        <h4 class="label">Ressources</h4>
+        <h2 class="heading">latest article</h2>
+        <div class="container">
+            <div class="latest-article">
+                <img src="" alt="">
+                <p></p>
+                <h3></h3>
+                <div class="author">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+            </div>
+            <div class="more-article">
+                <div class="box box1">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="text">
+                        <h3></h3>
+                        <li></li>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="text">
+                        <h3></h3>
+                        <li></li>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="text">
+                        <h3></h3>
+                        <li></li>
+                    </div>
+                </div>
+                <div class="box box4">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="text">
+                        <h3></h3>
+                        <li></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- article section ends here  -->
+
+    <!-- feedback section starts here  -->
+    <section class="feedback">
+        <div class="container">
+            <h4 class="label">La voix de notre partenaire</h4>
+            <h2 class="heading"></h2>
+            <p class="paragraph">
+                histoires vraies de notre communauté
+            </p>
+        </div>
+
+        <div class="voices">
+            <div class="voice box1">
+                <div class="profile">
+                    <img src="images/photo1.jpg" alt="">
+                    <div class="detail">
+                        <li>Mohamed Ahmed</li>
+                        <li>Prof Math</li>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat iusto sunt, ducimus aliquam laboriosam placeat eligendi, dignissimos facere ratione deserunt. Voluptatum ratione saepe dolor!"</p>
+            </div>
+            <div class="voice box2">
+                <div class="profile">
+                    <img src="images/photo2.jpg" alt="">
+                    <div class="detail">
+                        <li>marvin davin</li>
+                        <li>Prof Anglais</li>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat iusto sunt, ducimus aliquam laboriosam placeat eligendi, dignissimos facere ratione deserunt. Voluptatum ratione saepe dolor!"</p>
+            </div>
+            <div class="voice box3">
+                <div class="profile">
+                    <img src="images/photo3.jpg" alt="">
+                    <div class="detail">
+                        <li>Mohamed Siy</li>
+                        <li>Prof Education Civique</li>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat iusto sunt, ducimus aliquam laboriosam placeat eligendi, dignissimos facere ratione deserunt. Voluptatum ratione saepe dolor!"</p>
+            </div>
+            <div class="voice box4">
+                <div class="profile">
+                    <img src="images/photo4.jpg" alt="">
+                    <div class="detail">
+                        <li>Sidi Doueida</li>
+                        <li>Parent</li>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat iusto sunt, ducimus aliquam laboriosam placeat eligendi, dignissimos facere ratione deserunt. Voluptatum ratione saepe dolor!"</p>
+            </div>
+            <div class="voice box5">
+                <div class="profile">
+                    <img src="images/photo5.jpg" alt="">
+                    <div class="detail">
+                        <li>Louise Jone</li>
+                        <li>Prof Physique & Chimie</li>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat iusto sunt, ducimus aliquam laboriosam placeat eligendi, dignissimos facere ratione deserunt. Voluptatum ratione saepe dolor!"</p>
+            </div>
+            <div class="voice box6">
+                <div class="profile">
+                    <img src="images/photo6.jpg" alt="">
+                    <div class="detail">
+                        <li>Emma Musk</li>
+                        <li>Prof Science Naturelle</li>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat iusto sunt, ducimus aliquam laboriosam placeat eligendi, dignissimos facere ratione deserunt. Voluptatum ratione saepe dolor!"</p>
+            </div>
+        </div>
+    </section>
+    <!-- feedback section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <section class="footer" id="contact">
+            <div class="container">
+                <div class="detail">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> MonProf</h3>
+                    <p>Pont De Communication Distingué Entre L'enseignant, L'élève Et Les Parents - Vers Un Partenariat Éducatif Efficace Et Durable.</p>
+                    <h5>contactez-nous</h5>
+                    <a href="">+222 32929293</a> <br>
+                    <a href="#">info@monprof.com</a>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="copyright">
+                <div>
+                    &copy;2024 - MonProf, all rights reserved
+                </div>
+                <div>
+                    <a href="#">term & conditions</a>
+                    <a href="#">privacy policy</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
