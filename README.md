@@ -1,5 +1,6 @@
 # MonProf #
 
+MyProf Communication bridge distinguishing between teacher, student and parents - towards an effective and sustainable educational partnership.
 
  <p align="center">
    	<b>
